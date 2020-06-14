@@ -1,0 +1,22 @@
+@keyframes rainbow{
+	0%{color: white;}
+	10%{color: red;}
+	20%{color: blue;}
+	30%{color: yellow;}
+	40%{color: pink;}
+	50%{color: purple;}
+	60%{color: orange;}
+	70%{color: brown;}
+	80%{color: cyan;}
+	90%{color: darkgreen;}
+}
+
+@keyframes textlogo{
+	from{transform: translateX(-256px);}
+	to{transform: translateX(0);}
+}
+
+@keyframes rotate{
+	from{ transform: scale(2) rotate(0); }
+	to{ transform: scale(2) rotate(360deg); }
+}

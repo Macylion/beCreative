@@ -1,0 +1,9 @@
+:root{
+	--menuBg: limegreen;
+	--shadow1: #888;
+	--white: white;
+	--whiteout1: rgba(255, 255, 255, 0);
+	--whiteout2: rgba(235, 235, 235, .9);
+	--black: black;
+	--border1: #222;
+}

@@ -1,0 +1,130 @@
+body{
+	margin: 0;
+	background-color: white;
+	overflow-x: hidden;
+	font-family: sans-serif;
+}
+
+.a2{
+	color: black;
+}
+
+.a3{
+	color: var(--white);
+	text-decoration: none;
+	/*display: none;*/
+}
+
+#image_container{
+	width: 100%;
+	font-size: 0;
+	margin-top: 60px;
+}
+
+.image{
+	background-color: white;
+	width: 20%;
+	height: 0;
+	padding-top: 20%;
+	display: inline-block;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	transition: transform 2s;
+	z-index: 800;
+	cursor: pointer;
+	text-align: center;
+	align-items: center;
+}
+
+.image:hover{
+	transform: scale(1.1);
+	z-index: 898;
+	transition: transform .3s;
+}
+
+.fog{
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.image:hover .fog{
+	opacity: .4;
+}
+
+.text{
+	position: absolute;
+	width: 100%;
+	padding: 8px 0;
+	bottom: 0;
+	left: 0;
+	height: 32px;
+	transition: all 1s;
+	font-size: 14px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	/*background-color: var(--white);*/
+	background: linear-gradient(rgba(36,38,38,0) 0,rgba(36,38,38,0.8) 100%);
+	opacity: 0;
+}
+
+.image:hover .text{
+	opacity: 1;
+}
+
+.title{
+	width: 90%;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 2000px){
+	.image{width: 12.5%; padding-top: 12.5%;}
+}
+@media only screen and (max-width: 1800px){
+	.image{width: 14.28%; padding-top: 14.28%;}
+}
+@media only screen and (max-width: 1600px){
+	.image{width: 16.66%; padding-top: 16.66%;}
+}
+@media only screen and (max-width: 1400px){
+	.image{width: 20%; padding-top: 20%;}
+	/*.a3{width: 20%; padding-top: 20%;}*/
+}
+@media only screen and (max-width: 1200px){
+	.image{width: 25%; padding-top: 25%;}
+}
+@media only screen and (max-width: 800px){
+	.image{width: 33.33%; padding-top: 33.33%;}
+}
+@media only screen and (max-width: 400px){
+	.image{width: 50%; padding-top: 50%;}
+}
+@media only screen and (max-width: 200px){
+	.image{width: 100%; padding-top: 100%;}
+}
+
+#sorry{
+	width: 100%;
+	height: 112px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 40px 4px;
+	padding-bottom: 128px;
+	background-color: white;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+#sorry h1{
+	font-size: 28px;
+}
+
+#sorry p{
+	font-size: 20px;
+}

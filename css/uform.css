@@ -1,0 +1,91 @@
+.uploadbody{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url('../pics/bg_alt3.png');
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+#uform{
+	position: relative;
+	background-color: white;
+	box-shadow: black 4px 4px 8px;
+	overflow: hidden;
+	width: 512px;
+}
+
+#uform input[type=text]{
+	width: 100%;
+	padding: 8px;
+	background-color: transparent;
+	border: 0;
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+}
+
+#uform textarea{
+	width: 100%;
+	min-height: 128px;
+	padding: 8px;
+	background-color: transparent;
+	border: 0;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+}
+
+#uform input[type=submit]{
+	width: 100%;
+	padding: 8px;
+	background-color: transparent;
+	border: 0;
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	background-color: rgb(32,192,32);
+	transition: all .5s;
+	cursor: pointer;
+	padding: 12px;
+}
+
+#uform input[type=submit]:hover{
+	background-color: rgb(0,256,0);
+	transition: all .5s;
+}
+
+#uform label input[type=file]{
+	display: none;
+}
+
+#uform label{
+	display: flex;
+	height: 128px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url('../pics/upload2.png');
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	justify-content: center;
+	color: grey;
+	cursor: pointer;
+}
+
+#uform label:hover{
+
+}
+
+#uform label p{
+	margin: 0;
+}
+
+

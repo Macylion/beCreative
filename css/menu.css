@@ -1,0 +1,93 @@
+.tippy-popper{
+	font-family: 'Roboto', sans-serif;
+}
+.a1{
+	color: var(--white);
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+#menu{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 46px;
+	background-color: var(--menuBg);
+	padding: 8px;
+	box-shadow: var(--shadow1) 0 4px 8px;
+	display: inline-flex;
+	z-index: 899;
+	font-family: sans-serif;
+}
+
+.textlogo{
+	font-family: 'Gugi', cursive;
+	font-size: 40px;
+	margin-top: -2px;
+	margin-left: 4px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	color: var(--white) !important;
+	transition: color .5s;
+	animation: textlogo 1s 1;
+}
+
+.textlogo:hover{
+	color: var(--black) !important;
+	transition: color .5s c;
+}
+
+.menu_righter{
+	position: absolute;
+	right: 0;
+	padding: 0;
+	width: 300px;
+	height: 46px;
+	display: inline-flex;
+	align-items: center;
+}
+
+.avatarmenu{
+	background-color: var(--white);
+	border: var(--border1) 2px solid;
+	padding: 0;
+	min-width: 46px;
+	min-height: 46px;
+	max-width: 46px;
+	max-height: 46px;
+	border-radius: 100%;
+	transition: all .5s;
+	margin-left: 8px;
+}
+
+.avatarmenu:hover{
+	transform: scale(1.2) rotate(-15deg);
+	transition: all .5s;
+}
+
+.iconmenu{
+	background-color: var(--whiteout1);
+	padding: 4px;
+	min-width: 40px;
+	min-height: 40px;
+	max-width: 40px;
+	max-height: 40px;
+	margin: 0 8px;
+	transition: all 1s;
+}
+
+.iconmenu:hover{
+	background-color: var(--whiteout2);
+	transition: all .5s;
+	border-radius: 100%;
+}
+
+#admin{
+	position: absolute;
+	right: 300px;
+	padding: 0;
+	height: 46px;
+	display: inline-flex;
+	align-items: center;
+}

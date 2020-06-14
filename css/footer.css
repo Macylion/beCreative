@@ -1,0 +1,15 @@
+#footer{
+	width: 100%;
+	padding: 32px 0;
+	background-color: rgb(46, 48, 48);
+	text-align: center;
+	align-items: center;
+	font-size: 28px;
+	color: white;
+	font-family: 'Gugi', cursive;
+	border-top: black 16px solid;
+}
+
+#footer p{
+	font-size: 24px;
+}
